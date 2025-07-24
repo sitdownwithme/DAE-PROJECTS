@@ -1,8 +1,9 @@
-Lacrosse Shoe Order Summary
-Name: Jordan Fields
-Color: Blue
-Size: 9.0
+ORDER SUMMARY
+Name: Jamara Fanfan
+Color: White
+Size: 5.5
 Traction: All-Terrain
-Support: Mid
-Design: Classic TA
-Final Price: $106.92
+Support: Low
+Design: Minimal TA
+Discount: 5% - Welcome
+Final Price: $102.60
