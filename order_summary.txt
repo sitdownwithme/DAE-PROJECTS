@@ -1,0 +1,8 @@
+Lacrosse Shoe Order Summary
+Name: Jordan Fields
+Color: Blue
+Size: 9.0
+Traction: All-Terrain
+Support: Mid
+Design: Classic TA
+Final Price: $106.92
