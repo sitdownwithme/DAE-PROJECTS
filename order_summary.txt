@@ -1,9 +1,9 @@
 ORDER SUMMARY
-Name: Jamara Fanfan
-Color: White
-Size: 5.5
-Traction: All-Terrain
+Name: jordan fields
+Color: Blue
+Size: 8.0
+Traction: Turf
 Support: Low
-Design: Minimal TA
+Design: No design
 Discount: 5% - Welcome
 Final Price: $102.60
