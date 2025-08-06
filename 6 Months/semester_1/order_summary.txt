@@ -1,0 +1,9 @@
+ORDER SUMMARY
+Name: jordan fields
+Color: Blue
+Size: 8.0
+Traction: Turf
+Support: Low
+Design: No design
+Discount: 5% - Welcome
+Final Price: $102.60
