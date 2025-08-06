@@ -1,3 +1,0 @@
-Sample content for sample_order.txt
-Created: 2025-07-24 15:43:57.752128
-Platform: Windows
