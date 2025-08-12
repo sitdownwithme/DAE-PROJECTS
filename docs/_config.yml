@@ -3,20 +3,14 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site settings
-locale: "en-US"
 title: "Jordan Fields - Portfolio"
-title_separator: "-"
-subtitle: "Software Developer"
 name: "Jordan Fields"
 description: "Portfolio website showcasing my projects and skills as a software developer."
-url: "" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl: "" # the subpath of your site, e.g. "/blog"
-repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 
 # Site Author
 author:
   name: "Jordan Fields"
-  avatar: "/assets/img/profile-photo.jpg"
+  avatar: "/assets/img/jordan_dae_1.jpg"
   bio: "Software Developer | Expected Graduation: May 2024"
   location: "Your Location"
   links:
