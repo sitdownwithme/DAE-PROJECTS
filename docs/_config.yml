@@ -11,15 +11,13 @@ description: "Portfolio website showcasing my projects and skills as a software 
 author:
   name: "Jordan Fields"
   avatar: "/assets/img/jordan_dae_1.jpg"
-  bio: "Software Developer | Expected Graduation: May 2024"
+  bio: "Software Developer | Expected Graduation: December 2025"
   location: "Your Location"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:your.email@example.com"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/yourprofile"
+      url: "mailto:fieldsjay33195@gmail.com"
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/yourusername"
@@ -27,9 +25,6 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/yourprofile"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/yourusername"

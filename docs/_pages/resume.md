@@ -10,7 +10,7 @@ permalink: /resume/
 ## Education
 
 ### dae
-*Expected Graduation: May 2024*
+*Expected Graduation: December 2025*
 
 Studying software development with a focus on [your specialization].
 

@@ -10,11 +10,11 @@ author_profile: true
   
   <div class="profile-content">
     <h1>Jordan Fields</h1>
-    <p class="graduation-date">Expected Graduation: May 2024</p>
+    <p class="graduation-date">Expected Graduation: December 2025</p>
     
     <div class="contact-info">
-      <p><i class="fas fa-envelope"></i> <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-      <p><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></p>
+      <p><i class="fas fa-envelope"></i> <a href="mailto:fieldsjay33195@gmail.com">fieldsjay33195@gmail.com</a></p>
+
       <p><i class="fab fa-github"></i> <a href="https://github.com/yourusername" target="_blank">GitHub</a></p>
     </div>
   </div>
