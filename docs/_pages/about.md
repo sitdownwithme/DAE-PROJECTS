@@ -59,5 +59,5 @@ to achieve shared goals.
 <!-- Add more as needed -->
 
 <div style="text-align: center; margin-top: 3rem;">
-  <img src="/assets/img/dae-web.avif" alt="dae logo" style="max-width: 150px; height: auto;">
+  <img src="/assets/img/dae.png" alt="dae logo" style="max-width: 150px; height: auto;">
 </div>
