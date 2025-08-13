@@ -3,7 +3,9 @@ title: "Projects"
 permalink: /projects/
 ---
 
-Here are some of the key projects I've worked on. Each demonstrates different skills and technologies I've mastered during my time at dae.
+Incident Response PlayBook
+ToddAvery Shoe Customizer
+Sports Connect
 
 <div class="project-item" id="project1">
   <h2>Project Title 1</h2>
@@ -22,10 +24,10 @@ Here are some of the key projects I've worked on. Each demonstrates different sk
       
       <h3>Technologies Used</h3>
       <ul>
-        <li>React</li>
-        <li>Node.js</li>
-        <li>MongoDB</li>
-        <li>Express</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
         <!-- Add more as needed -->
       </ul>
       
@@ -62,9 +64,9 @@ Here are some of the key projects I've worked on. Each demonstrates different sk
       <h3>Technologies Used</h3>
       <ul>
         <li>Python</li>
-        <li>Django</li>
-        <li>PostgreSQL</li>
-        <li>Docker</li>
+        <li></li>
+        <li></li>
+        <li></li>
         <!-- Add more as needed -->
       </ul>
       
@@ -100,10 +102,10 @@ Here are some of the key projects I've worked on. Each demonstrates different sk
       
       <h3>Technologies Used</h3>
       <ul>
-        <li>JavaScript</li>
-        <li>Vue.js</li>
-        <li>Firebase</li>
-        <li>Tailwind CSS</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
         <!-- Add more as needed -->
       </ul>
       
