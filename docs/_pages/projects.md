@@ -9,7 +9,7 @@ permalink: /projects/
   
   <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 2rem;">
     <div style="flex: 0 0 300px;">
-      <img src="/assets/img/project1-placeholder.jpg.svg" alt="Project 1 Screenshot" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <img src="/assets/img/incident response playbook.png" alt="Project 1 Screenshot" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </div>
     
     <div style="flex: 1; min-width: 300px;">
@@ -48,7 +48,7 @@ permalink: /projects/
   
   <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 2rem;">
     <div style="flex: 0 0 300px;">
-      <img src="/assets/img/project2-placeholder.jpg.svg" alt="Project 2 Screenshot" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <img src="/assets/img/ToddAvery Shoe.png" alt="Project 2 Screenshot" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </div>
     
     <div style="flex: 1; min-width: 300px;">
