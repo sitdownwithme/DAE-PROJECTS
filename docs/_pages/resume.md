@@ -38,14 +38,37 @@ Relevant coursework: [list relevant courses]
 
 ## Projects
 
+### Incident Response Playbook
+*June 2025 - June 2025*
+
+Project & Role: Designed and implemented an Incident Response Lab Environment to simulate a ransomware attack on $100M worth of confidential football play data, serving as both lab architect and incident response playbook developer.
+
+Key Technologies: pfSense firewall, Windows Server, Linux (Apache, Postfix), ELK Stack, Wazuh, Sysmon, Metasploit, DVWA, Kali Linux.
+
+Core Objective: Model a professional football team’s network and execute a controlled ransomware scenario to test and refine IR procedures.
+
+Notable Features: Fully isolated network with realistic endpoints, SIEM integration, vulnerability scanning, and custom ransomware binary for testing.
+
+Incident Response Playbook: Covered NIST 800-61 phases—Preparation, Detection & Analysis, Containment, Eradication, Recovery, Post-Incident.
+
+Testing & Validation: Performed tabletop and live attack simulations, achieving MTTD < 15 minutes and MTTR < 24 hours with 100% data recovery.
+
+Security Impact: Strengthened cyber resilience, safeguarded high-value sports IP, and aligned with ISO/IEC 27035 standards.
+
+Deliverables: End-to-end IR playbook, network diagrams, recovery validation reports, and training completion records.
+
+[View project details](/projects/#project1)
+
 ### ToddAvery Shoe Customizer
 *July 2025 - July 2025*
 
- Developed an Enhanced Lacrosse Shoe Customization System with a fully interactive Tkinter-based GUI, acting as both the backend logic developer and UI designer.Allowed users to customize shoes by season, color, traction, support level, and poetic-themed designs, while managing shipping/billing info.
+Project & Role: Developed an Enhanced Lacrosse Shoe Customization System with a fully interactive Tkinter-based GUI, acting as both the backend logic developer and UI designer.
 
- Key Technologies: Python, Tkinter (GUI), ttk widgets, OOP, input validation, pricing/tax calculation logic.
+Core Functionality: Allowed users to customize shoes by season, color, traction, support level, and poetic-themed designs, while managing shipping/billing info.
 
- Dynamic Features: Seasonal color collections auto-update based on user selection; customer type triggers personalized discounts and messages.
+Key Technologies: Python, Tkinter (GUI), ttk widgets, OOP, input validation, pricing/tax calculation logic.
+
+Dynamic Features: Seasonal color collections auto-update based on user selection; customer type triggers personalized discounts and messages.
 
 Data Integrity: Included robust form validation, revision capability for individual fields, and prevention of incomplete orders.
 
@@ -54,16 +77,7 @@ UX Enhancements: Scrollable interface, poetic branding, and “revise without re
 Pricing Engine: Automated tax, discount, and add-on cost calculations for accurate final price display.
 
 Achievement: Delivered a polished, fully functional local application simulating an e-commerce customization experience from start to order summary.
-
-[View project details](/projects/#project1)
-
-### Project Title 2
-*April 2023 - June 2023*
-
-- Brief description of the project and your role
-- Key technologies used
-- Notable achievements or features implemented
-
+-
 [View project details](/projects/#project2)
 
 ## Experience
