@@ -21,31 +21,39 @@ Relevant coursework: [list relevant courses]
 ## Technical Skills
 
 ### Programming Languages
-- JavaScript
+- 
 - Python
-- HTML/CSS
+- 
 <!-- Add more as needed -->
 
 ### Frameworks & Libraries
-- React
-- Node.js
-- Express
+
 <!-- Add more as needed -->
 
 ### Tools & Technologies
 - Git
 - VS Code
-- Docker
+
 <!-- Add more as needed -->
 
 ## Projects
 
-### Project Title 1
-*January 2023 - March 2023*
+### ToddAvery Shoe Customizer
+*July 2025 - July 2025*
 
-- Brief description of the project and your role
-- Key technologies used
-- Notable achievements or features implemented
+ Developed an Enhanced Lacrosse Shoe Customization System with a fully interactive Tkinter-based GUI, acting as both the backend logic developer and UI designer.Allowed users to customize shoes by season, color, traction, support level, and poetic-themed designs, while managing shipping/billing info.
+
+ Key Technologies: Python, Tkinter (GUI), ttk widgets, OOP, input validation, pricing/tax calculation logic.
+
+ Dynamic Features: Seasonal color collections auto-update based on user selection; customer type triggers personalized discounts and messages.
+
+Data Integrity: Included robust form validation, revision capability for individual fields, and prevention of incomplete orders.
+
+UX Enhancements: Scrollable interface, poetic branding, and “revise without restarting” functionality for smoother customization.
+
+Pricing Engine: Automated tax, discount, and add-on cost calculations for accurate final price display.
+
+Achievement: Delivered a polished, fully functional local application simulating an e-commerce customization experience from start to order summary.
 
 [View project details](/projects/#project1)
 

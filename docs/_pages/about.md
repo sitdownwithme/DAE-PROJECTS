@@ -9,11 +9,11 @@ Hello! I'm Jordan Fields, a passionate developer and problem-solver currently st
 I have a deep interest in [ trauma, I never imagined I would ever be in a web development class enjoying it. Life is about opportunities and bridges embrace them and cross them. Welcome to my brain, feel free to explore and enjoy ]
 
 
-When I'm not coding, you can find me [bulding endless memories with my family, you can catch at the nearest beach,track,skyzone. Self care is free living is expensive].
+When I'm not coding, you can find me [building endless memories with my family, you can catch at the nearest beach,track,skyzone. Self care is free living is expensive].
 
 ## My Values
 
-- **Continuous Learning:** I believe in harmony and coexistense
+- **Continuous Learning:** I believe in harmony and coexistense.
 - **Collaboration:** I thrive in team environments where diverse perspectives lead to better solutions.
 - **Quality:** I'm committed to the mission, we all have goals. Its business not personal
 - **Problem-Solving:** Brain usage is underrated, it saved my life.
@@ -27,7 +27,7 @@ I thrive in places that encourage creativity, provide mentorship opportunities, 
 
 ### Preferred Roles
 
-I'm particularly interested in roles such as [Web Development, Devops] where I can leverage my skills in [ human experienes].
+I'm particularly interested in roles such as [Web Development, Devops] where I can leverage my skills in [ human experiences].
 
 ### Ideal Job Description
 
