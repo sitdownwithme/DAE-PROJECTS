@@ -3,12 +3,9 @@ title: "Projects"
 permalink: /projects/
 ---
 
-Incident Response PlayBook
-ToddAvery Shoe Customizer
-Sports Connect
 
-<div class="project-item" id="project1">
-  <h2>Project Title 1</h2>
+<div class="project-item" id="Incident Response PlayBook">
+  <h2>Incident Response PlayBook</h2>
   
   <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 2rem;">
     <div style="flex: 0 0 300px;">
@@ -46,8 +43,8 @@ Sports Connect
 
 <hr>
 
-<div class="project-item" id="project2">
-  <h2>Project Title 2</h2>
+<div class="project-item" id="ToddAvery Shoe Customizer">
+  <h2>ToddAvery Shoe Customizer</h2>
   
   <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 2rem;">
     <div style="flex: 0 0 300px;">
@@ -85,8 +82,8 @@ Sports Connect
 
 <hr>
 
-<div class="project-item" id="project3">
-  <h2>Project Title 3</h2>
+<div class="project-item" id="Sports Connect">
+  <h2>Sports Connect</h2>
   
   <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 2rem;">
     <div style="flex: 0 0 300px;">
@@ -123,5 +120,5 @@ Sports Connect
 </div>
 
 <div style="text-align: center; margin-top: 3rem;">
-  <img src="/assets/img/dae-web.avif" alt="dae logo" style="max-width: 150px; height: auto;">
+  <img src="/assets/img/dae.png" alt="dae logo" style="max-width: 150px; height: auto;">
 </div>
