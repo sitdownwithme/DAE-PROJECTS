@@ -6,18 +6,17 @@ permalink: /about/
 ## Who I Am
 
 Hello! I'm Jordan Fields, a passionate developer and problem-solver currently studying at dae. 
-I have a deep interest in [your interests, e.g., web development, machine learning, etc.] and enjoy 
-creating solutions that make a positive impact.
+I have a deep interest in [ trauma, I never imagined I would ever be in a web development class enjoying it. Life is about opportunities and bridges embrace them and cross them. Welcome to my brain, feel free to explore and enjoy ]
 
-When I'm not coding, you can find me [your hobbies and interests outside of tech, e.g., hiking, 
-playing guitar, reading sci-fi novels, etc.].
+
+When I'm not coding, you can find me [bulding endless memories with my family, you can catch at the nearest beach,track,skyzone. Self care is free living is expensive].
 
 ## My Values
 
-- **Continuous Learning:** I believe in constantly expanding my knowledge and skills.
+- **Continuous Learning:** I believe in harmony and coexistense
 - **Collaboration:** I thrive in team environments where diverse perspectives lead to better solutions.
-- **Quality:** I'm committed to writing clean, maintainable code and delivering high-quality work.
-- **Problem-Solving:** I enjoy tackling complex challenges and finding elegant solutions.
+- **Quality:** I'm committed to the mission, we all have goals. Its business not personal
+- **Problem-Solving:** Brain usage is underrated, it saved my life.
 
 ## Career Aspirations
 
@@ -28,14 +27,12 @@ I thrive in places that encourage creativity, provide mentorship opportunities, 
 
 ### Preferred Roles
 
-I'm particularly interested in roles such as [specific roles, e.g., Full Stack Developer, Frontend Engineer, 
-Data Scientist, etc.] where I can leverage my skills in [relevant technologies and skills].
+I'm particularly interested in roles such as [Web Development, Devops] where I can leverage my skills in [ human experienes].
 
 ### Ideal Job Description
 
-My ideal position would involve working on challenging projects that make a meaningful impact, 
-collaborating with talented professionals, and having opportunities to learn and grow. I'm particularly 
-drawn to companies that [specific company values or industries you're interested in].
+over the toxic hustle culture - I want to build cool stuff without sacrificing my sanity or personal life.
+
 
 ### Team Dynamics
 
@@ -46,21 +43,19 @@ to achieve shared goals.
 ## Skills & Expertise
 
 ### Programming Languages
-- JavaScript
+
 - Python
-- HTML/CSS
+
 <!-- Add more as needed -->
 
 ### Frameworks & Libraries
-- React
-- Node.js
-- Express
+- 
 <!-- Add more as needed -->
 
 ### Tools & Technologies
 - Git
 - VS Code
-- Docker
+
 <!-- Add more as needed -->
 
 <div style="text-align: center; margin-top: 3rem;">
