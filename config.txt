@@ -1,3 +1,0 @@
-Sample content for config.txt
-Created: 2025-07-24 15:43:57.752746
-Platform: Windows
