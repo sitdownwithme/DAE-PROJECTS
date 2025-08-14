@@ -87,7 +87,7 @@ Achievement: Delivered a polished, fully functional local application simulating
 
 <!-- If you have relevant work experience, add it here -->
 ### Student Developer
-*DAE* | *January 2025 - Present*
+*DAE* | *June 2025 - Present*
 
 - Developing web applications and cybersecurity solutions as part of coursework
 - Collaborating with peers on group projects and hackathons
