@@ -10,9 +10,9 @@ description: "Portfolio website showcasing my projects and skills as a software 
 # Site Author
 author:
   name: "Jordan Fields"
-  avatar: "/assets/img/jordan_dae_1.jpg"
+  avatar: "/assets/img/Jordan_Fields_Headshot.jpg"
   bio: "Software Developer | Expected Graduation: December 2025"
-  location: "Your Location"
+  location: "United States"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -20,14 +20,14 @@ author:
 
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/yourusername"
+      url: "https://github.com/sitdownwithme"
 
 # Site Footer
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/yourusername"
+      url: "https://github.com/sitdownwithme"
 
 # Reading Files
 include:

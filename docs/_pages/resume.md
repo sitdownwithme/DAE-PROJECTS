@@ -12,28 +12,31 @@ permalink: /resume/
 ### dae
 *Expected Graduation: December 2025*
 
-Studying software development with a focus on [your specialization].
+Studying software development with a focus on web development and cybersecurity.
 
-Relevant coursework: [list relevant courses]
+Relevant coursework: Python Programming, Web Development, Cybersecurity Fundamentals
 
 <!-- Add previous education if applicable -->
 
 ## Technical Skills
 
 ### Programming Languages
-- 
 - Python
-- 
+- HTML/CSS
+- JavaScript (Basic)
 <!-- Add more as needed -->
 
 ### Frameworks & Libraries
-
+- Tkinter
+- Jekyll
 <!-- Add more as needed -->
 
 ### Tools & Technologies
-- Git
+- Git/GitHub
 - VS Code
-
+- pfSense
+- ELK Stack
+- Wazuh
 <!-- Add more as needed -->
 
 ## Projects
@@ -57,7 +60,7 @@ Security Impact: Strengthened cyber resilience, safeguarded high-value sports IP
 
 Deliverables: End-to-end IR playbook, network diagrams, recovery validation reports, and training completion records.
 
-[View project details](/projects/#project1)
+[View project details](/projects/#Incident Response PlayBook)
 
 ### ToddAvery Shoe Customizer
 *July 2025 - July 2025*
@@ -78,26 +81,26 @@ Pricing Engine: Automated tax, discount, and add-on cost calculations for accura
 
 Achievement: Delivered a polished, fully functional local application simulating an e-commerce customization experience from start to order summary.
 -
-[View project details](/projects/#project2)
+[View project details](/projects/#ToddAvery Shoe Customizer)
 
 ## Experience
 
 <!-- If you have relevant work experience, add it here -->
-### Position Title
-*Company Name* | *Month Year - Month Year*
+### Student Developer
+*DAE* | *January 2025 - Present*
 
-- Description of responsibilities and achievements
-- Technologies and tools used
-- Impact of your work
+- Developing web applications and cybersecurity solutions as part of coursework
+- Collaborating with peers on group projects and hackathons
+- Applying classroom knowledge to real-world problem-solving
 
 ## Certifications
 
 <!-- Add any relevant certifications -->
-### Certification Name
-*Issued Month Year*
+### Python Programming Fundamentals
+*Issued June 2025*
 
-Issuing organization
+DAE Institute
 
 <div style="text-align: center; margin-top: 3rem;">
-  <img src="/assets/img/dae-web.avif" alt="dae logo" style="max-width: 150px; height: auto;">
+  <img src="/assets/img/dae.png" alt="dae logo" style="max-width: 150px; height: auto;">
 </div>

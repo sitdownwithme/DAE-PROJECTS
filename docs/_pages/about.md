@@ -3,42 +3,40 @@ title: "About Me"
 permalink: /about/
 ---
 
+# Jordan Fields - Professional Profile
+
 ## Who I Am
 
-Hello! I'm Jordan Fields, a passionate developer and problem-solver currently studying at dae. 
-I have a deep interest in [ trauma, I never imagined I would ever be in a web development class enjoying it. Life is about opportunities and bridges embrace them and cross them. Welcome to my brain, feel free to explore and enjoy ]
+Hello! I'm Jordan Fields, a passionate developer and problem-solver currently studying at DAE. 
 
+Despite experiencing trauma, I never imagined I would find myself in a web development class truly enjoying it. Life is about recognizing opportunities and embracing the bridges that come our way - crossing them with confidence. Welcome to my perspective; feel free to explore and enjoy the journey.
 
-When I'm not coding, you can find me [building endless memories with my family, you can catch at the nearest beach,track,skyzone. Self care is free living is expensive].
+When I'm not coding, you can find me building endless memories with my family. You might catch me at the nearest beach, track, or SkyZone. I believe self-care is invaluable, while living expenses are just part of the journey.
 
 ## My Values
 
-- **Continuous Learning:** I believe in harmony and coexistense.
-- **Collaboration:** I thrive in team environments where diverse perspectives lead to better solutions.
-- **Quality:** I'm committed to the mission, we all have goals. Its business not personal
-- **Problem-Solving:** Brain usage is underrated, it saved my life.
+- **Continuous Learning:** I believe in harmony and coexistence, fostering growth through understanding.
+- **Collaboration:** I thrive in team environments where diverse perspectives lead to innovative solutions.
+- **Quality:** I'm committed to excellence in every mission. We all have goals - it's business, not personal.
+- **Problem-Solving:** Strategic thinking is underrated, yet it has been transformative in my life.
 
 ## Career Aspirations
 
 ### Ideal Work Environment
 
-I'm looking for a collaborative and innovative work environment that values continuous learning and growth.
-I thrive in places that encourage creativity, provide mentorship opportunities, and maintain a healthy work-life balance.
+I'm seeking a collaborative and innovative work environment that values continuous learning and professional growth. I thrive in organizations that encourage creativity, provide mentorship opportunities, and maintain a healthy work-life balance.
 
 ### Preferred Roles
 
-I'm particularly interested in roles such as [Web Development, Devops] where I can leverage my skills in [ human experiences].
+I'm particularly interested in roles in **Web Development** and **DevOps**, where I can leverage my skills in understanding and enhancing human experiences through technology.
 
-### Ideal Job Description
+### Professional Philosophy
 
-over the toxic hustle culture - I want to build cool stuff without sacrificing my sanity or personal life.
-
+I prioritize sustainable development practices over toxic hustle culture. My goal is to build innovative solutions without sacrificing personal well-being or work-life balance.
 
 ### Team Dynamics
 
-I work best with teams that value open communication, mutual respect, and diverse perspectives. 
-I enjoy environments where team members support each other's growth and collaborate effectively 
-to achieve shared goals.
+I excel in teams that value open communication, mutual respect, and diverse perspectives. I flourish in environments where team members support each other's growth and collaborate effectively to achieve shared objectives.
 
 ## Skills & Expertise
 
@@ -49,15 +47,22 @@ to achieve shared goals.
 <!-- Add more as needed -->
 
 ### Frameworks & Libraries
-- 
+
+- *Currently expanding skill set*
+
 <!-- Add more as needed -->
 
 ### Tools & Technologies
+
 - Git
 - VS Code
 
 <!-- Add more as needed -->
 
+---
+
+*Profile last updated: August 2025*
+
 <div style="text-align: center; margin-top: 3rem;">
-  <img src="assets/img/dae.png" alt="dae logo" style="max-width: 150px; height: auto;">
+  <img src="/assets/img/dae.png" alt="dae logo" style="max-width: 150px; height: auto;">
 </div>

@@ -5,7 +5,7 @@ author_profile: true
 
 <div class="profile-container">
   <div class="profile-image">
-    <img src="/assets/img/jordan_dae_1.jpg" alt="Jordan Fields" />
+    <img src="/assets/img/Jordan_Fields_Headshot.jpg" alt="Jordan Fields" />
   </div>
   
   <div class="profile-content">
@@ -15,14 +15,14 @@ author_profile: true
     <div class="contact-info">
       <p><i class="fas fa-envelope"></i> <a href="mailto:fieldsjay33195@gmail.com">fieldsjay33195@gmail.com</a></p>
 
-      <p><i class="fab fa-github"></i> <a href="https://github.com/yourusername" target="_blank">GitHub</a></p>
+      <p><i class="fab fa-github"></i> <a href="https://github.com/sitdownwithme" target="_blank">GitHub</a></p>
     </div>
   </div>
 </div>
 
 <div class="intro-section">
   <h2>Welcome to My Portfolio</h2>
-  <p>I'm a passionate developer currently studying at dae. I'm focused on building innovative solutions that make a difference.</p>
+  <p>I'm a passionate developer currently studying at DAE. I'm focused on building innovative solutions that make a difference.</p>
   
   <div class="cta-buttons">
     <a href="/about/" class="btn btn--primary">Learn About Me</a>
@@ -35,24 +35,24 @@ author_profile: true
   
   <div class="project-grid">
     <div class="project-card">
-      <img src="/assets/img/project1-placeholder.jpg.svg" alt="Project 1" />
-      <h3>Project Title 1</h3>
-      <p>Brief description of the project and technologies used.</p>
-      <a href="/projects/#project1" class="btn btn--primary">View Details</a>
+      <img src="/assets/img/incident_response_playbook.png" alt="Incident Response Playbook" />
+      <h3>Incident Response Playbook</h3>
+      <p>A comprehensive incident response solution for protecting valuable data.</p>
+      <a href="/projects/#Incident Response PlayBook" class="btn btn--primary">View Details</a>
     </div>
     
     <div class="project-card">
-      <img src="/assets/img/project2-placeholder.jpg.svg" alt="Project 2" />
-      <h3>Project Title 2</h3>
-      <p>Brief description of the project and technologies used.</p>
-      <a href="/projects/#project2" class="btn btn--primary">View Details</a>
+      <img src="/assets/img/ToddAvery_Shoe.png" alt="ToddAvery Shoe Customizer" />
+      <h3>ToddAvery Shoe Customizer</h3>
+      <p>Interactive application for customizing lacrosse shoes with various options.</p>
+      <a href="/projects/#ToddAvery Shoe Customizer" class="btn btn--primary">View Details</a>
     </div>
     
     <div class="project-card">
-      <img src="/assets/img/project3-placeholder.jpg.svg" alt="Project 3" />
-      <h3>Project Title 3</h3>
+      <img src="/assets/img/project3-placeholder.jpg.svg" alt="Sports Connect" />
+      <h3>Sports Connect</h3>
       <p>Brief description of the project and technologies used.</p>
-      <a href="/projects/#project3" class="btn btn--primary">View Details</a>
+      <a href="/projects/#Sports Connect" class="btn btn--primary">View Details</a>
     </div>
   </div>
 </div>
