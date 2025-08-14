@@ -1,3 +1,0 @@
-theme=default
-save_auto=false
-commands_demo=true
