@@ -64,5 +64,5 @@ I excel in teams that value open communication, mutual respect, and diverse pers
 *Profile last updated: August 2025*
 
 <div style="text-align: center; margin-top: 3rem;">
-  <img src="/assets/img/dae.png" alt="dae logo" style="max-width: 150px; height: auto;">
+  <img src="assets/img/dae.png" alt="dae logo" style="max-width: 150px; height: auto;">
 </div>
