@@ -9,7 +9,7 @@ permalink: /projects/
   
   <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 2rem;">
     <div style="flex: 0 0 300px;">
-      <img src="assets/img/incident_response_playbook.png" alt="Incident Response Playbook Screenshot" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <img src="/assets/img/incident_response_playbook.png" alt="Incident Response Playbook Screenshot" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </div>
     
     <div style="flex: 1; min-width: 300px;">
@@ -51,7 +51,7 @@ permalink: /projects/
   
   <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 2rem;">
     <div style="flex: 0 0 300px;">
-      <img src="assets/img/ToddAvery_Shoe.png" alt="ToddAvery Shoe Customizer Screenshot" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <img src="/assets/img/ToddAvery_Shoe.png" alt="ToddAvery Shoe Customizer Screenshot" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </div>
     
     <div style="flex: 1; min-width: 300px;">
@@ -90,7 +90,7 @@ permalink: /projects/
   
   <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 2rem;">
     <div style="flex: 0 0 300px;">
-      <img src="assets/img/project3-placeholder.jpg.svg" alt="Project 3 Screenshot" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <img src="/assets/img/project3-placeholder.jpg.svg" alt="Project 3 Screenshot" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </div>
     
     <div style="flex: 1; min-width: 300px;">
@@ -122,5 +122,5 @@ permalink: /projects/
 </div>
 
 <div style="text-align: center; margin-top: 3rem;">
-  <img src="assets/img/dae.png" alt="dae logo" style="max-width: 150px; height: auto;">
+  <img src="/assets/img/dae.png" alt="dae logo" style="max-width: 150px; height: auto;">
 </div>
