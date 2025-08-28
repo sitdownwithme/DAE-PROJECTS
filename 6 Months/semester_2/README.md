@@ -38,3 +38,6 @@ This semester represents a natural progression from the foundational skills deve
 - Applying cybersecurity principles to backend system security
 - Utilizing Unix/Linux skills for server management
 - Implementing version control in a backend development context
+
+[LinkedIn](https://www.linkedin.com/in/jordan-fields-a052b334a/)
+[GitHub](https://github.com/sitdownwithme/DAE-PROJECTS)
