@@ -40,4 +40,4 @@ This semester represents a natural progression from the foundational skills deve
 - Implementing version control in a backend development context
 
 [LinkedIn](https://www.linkedin.com/in/jordan-fields-a052b334a/)
-[GitHub](https://github.com/sitdownwithme/DAE-PROJECTS)
+[GitHub](https://sitdownwithme.github.io/DAE-PROJECTS/)
