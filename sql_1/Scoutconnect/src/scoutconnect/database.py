@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Database URL from environment
-DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./scoutconnect.db")
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://user:password@localhost/scoutconnect")
 
 # SQLAlchemy setup
 engine = create_engine(DATABASE_URL)
@@ -31,8 +31,6 @@ def get_db():
 # Optional: Function to create tables
 def create_tables():
     """Create all tables defined in the models"""
-    # Import models to ensure they are registered with Base
-    import models
     Base.metadata.create_all(bind=engine)
 
 # Optional: Function to test connection
