@@ -14,7 +14,10 @@ from passlib.context import CryptContext
 from jose import JWTError, jwt
 
 from database import get_db
-from models import User
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+from models import User, Player
 
 # Security
 SECRET_KEY = os.getenv("JWT_SECRET_KEY", "your-jwt-secret-key-here")
@@ -41,6 +44,20 @@ class Token(BaseModel):
 
 class TokenData(BaseModel):
     username: Optional[str] = None
+
+class UserUpdate(BaseModel):
+    username: Optional[str] = None
+    email: Optional[str] = None
+    role: Optional[str] = None
+
+class PlayerUpdate(BaseModel):
+    first_name: Optional[str] = None
+    last_name: Optional[str] = None
+    date_of_birth: Optional[str] = None
+    sport: Optional[str] = None
+    position: Optional[str] = None
+    height_cm: Optional[int] = None
+    weight_kg: Optional[int] = None
 
 app = FastAPI(
     title="ScoutConnect API",
@@ -151,6 +168,59 @@ async def login_user(user: UserLogin, db: Session = Depends(get_db)):
         data={"sub": db_user.username}, expires_delta=access_token_expires
     )
     return {"access_token": access_token, "token_type": "bearer"}
+
+@app.put("/users/{user_id}")
+async def update_user(user_id: int, user_update: UserUpdate, db: Session = Depends(get_db), current_user: User = Depends(get_current_user)):
+    # Only admin can update users
+    if current_user.role != "admin":
+        raise HTTPException(status_code=403, detail="Not authorized to update users")
+
+    db_user = db.query(User).filter(User.id == user_id).first()
+    if not db_user:
+        raise HTTPException(status_code=404, detail="User not found")
+
+    # Update fields if provided
+    if user_update.username:
+        db_user.username = user_update.username
+    if user_update.email:
+        db_user.email = user_update.email
+    if user_update.role:
+        db_user.role = user_update.role
+
+    db.commit()
+    db.refresh(db_user)
+    return {"message": "User updated successfully", "user": db_user}
+
+@app.put("/players/{player_id}")
+async def update_player(player_id: int, player_update: PlayerUpdate, db: Session = Depends(get_db), current_user: User = Depends(get_current_user)):
+    # Only coach or admin can update players
+    if current_user.role not in ["admin", "coach"]:
+        raise HTTPException(status_code=403, detail="Not authorized to update players")
+
+    db_player = db.query(Player).filter(Player.id == player_id).first()
+    if not db_player:
+        raise HTTPException(status_code=404, detail="Player not found")
+
+    # Update fields if provided
+    if player_update.first_name:
+        db_player.first_name = player_update.first_name
+    if player_update.last_name:
+        db_player.last_name = player_update.last_name
+    if player_update.date_of_birth:
+        from datetime import datetime
+        db_player.date_of_birth = datetime.fromisoformat(player_update.date_of_birth)
+    if player_update.sport:
+        db_player.sport = player_update.sport
+    if player_update.position:
+        db_player.position = player_update.position
+    if player_update.height_cm is not None:
+        db_player.height_cm = player_update.height_cm
+    if player_update.weight_kg is not None:
+        db_player.weight_kg = player_update.weight_kg
+
+    db.commit()
+    db.refresh(db_player)
+    return {"message": "Player updated successfully", "player": db_player}
 
 @app.get("/auth/me")
 async def read_users_me(current_user: User = Depends(get_current_user)):

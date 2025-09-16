@@ -60,3 +60,6 @@ author_profile: true
 <div style="text-align: center; margin-top: 3rem;">
   <img src="assets/img/dae.png" alt="dae logo" style="max-width: 150px; height: auto;">
 </div>
+
+
+[![pages-build-deployment](https://github.com/sitdownwithme/DAE-PROJECTS/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/sitdownwithme/DAE-PROJECTS/actions/workflows/pages/pages-build-deployment)
