@@ -1,10 +1,10 @@
 """
 ScoutConnect - Smart Scouting Platform API
-Main FastAPI application entry point
+Main FastAPI application entry point with complete Players CRUD
 """
 
-from datetime import datetime, timedelta
-from typing import Optional
+from datetime import datetime, timedelta, date
+from typing import Optional, List
 import os
 from fastapi import FastAPI, HTTPException, Depends, status
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
@@ -13,8 +13,8 @@ from sqlalchemy.orm import Session
 from passlib.context import CryptContext
 from jose import JWTError, jwt
 
-from database import get_db
-from models import User
+from .db import SessionLocal
+from models import User, Player
 
 # Security
 SECRET_KEY = os.getenv("JWT_SECRET_KEY", "your-jwt-secret-key-here")
@@ -24,7 +24,7 @@ ACCESS_TOKEN_EXPIRE_MINUTES = 30
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 security = HTTPBearer()
 
-# Pydantic models
+# Pydantic models for Authentication
 class UserCreate(BaseModel):
     username: str
     email: str
@@ -42,11 +42,49 @@ class Token(BaseModel):
 class TokenData(BaseModel):
     username: Optional[str] = None
 
+# Pydantic models for Players
+class PlayerBase(BaseModel):
+    first_name: str
+    last_name: str
+    date_of_birth: Optional[date] = None
+    sport: str
+    position: Optional[str] = None
+    height_cm: Optional[int] = None
+    weight_kg: Optional[int] = None
+
+class PlayerCreate(PlayerBase):
+    pass
+
+class PlayerUpdate(BaseModel):
+    first_name: Optional[str] = None
+    last_name: Optional[str] = None
+    date_of_birth: Optional[date] = None
+    sport: Optional[str] = None
+    position: Optional[str] = None
+    height_cm: Optional[int] = None
+    weight_kg: Optional[int] = None
+
+class PlayerResponse(PlayerBase):
+    id: int
+    created_at: datetime
+    updated_at: datetime
+
+    class Config:
+        from_attributes = True
+
 app = FastAPI(
     title="ScoutConnect API",
     description="Smart Scouting Platform for Talent Discovery & Collaboration",
     version="0.1.0"
 )
+
+# Dependency for DB session
+def get_db():
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
 
 # Utility functions
 def verify_password(plain_password, hashed_password):
@@ -94,6 +132,15 @@ async def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(s
     if user is None:
         raise credentials_exception
     return user
+
+# Authorization helper
+def require_admin_or_coach(current_user: User = Depends(get_current_user)):
+    if current_user.role not in ["admin", "coach"]:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Only admins and coaches can perform this action"
+        )
+    return current_user
 
 # Routes
 @app.get("/")
@@ -159,3 +206,100 @@ async def read_users_me(current_user: User = Depends(get_current_user)):
         "email": current_user.email,
         "role": current_user.role
     }
+
+# --- Players CRUD Routes ---
+
+@app.post("/players", response_model=PlayerResponse, status_code=status.HTTP_201_CREATED)
+async def create_player(
+    player: PlayerCreate,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(require_admin_or_coach)
+):
+    """Create a new player profile"""
+    db_player = Player(**player.dict())
+    db.add(db_player)
+    db.commit()
+    db.refresh(db_player)
+    return db_player
+
+@app.get("/players", response_model=List[PlayerResponse])
+async def get_players(
+    skip: int = 0,
+    limit: int = 100,
+    sport: Optional[str] = None,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
+    """Get all players with optional filtering by sport"""
+    query = db.query(Player)
+    
+    if sport:
+        query = query.filter(Player.sport == sport)
+    
+    players = query.offset(skip).limit(limit).all()
+    return players
+
+@app.get("/players/{player_id}", response_model=PlayerResponse)
+async def get_player(
+    player_id: int,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
+    """Get a specific player by ID"""
+    player = db.query(Player).filter(Player.id == player_id).first()
+    if not player:
+        raise HTTPException(status_code=404, detail="Player not found")
+    return player
+
+@app.put("/players/{player_id}", response_model=PlayerResponse)
+async def update_player(
+    player_id: int,
+    player_update: PlayerUpdate,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(require_admin_or_coach)
+):
+    """Update a player's information"""
+    db_player = db.query(Player).filter(Player.id == player_id).first()
+    if not db_player:
+        raise HTTPException(status_code=404, detail="Player not found")
+    
+    # Update only provided fields
+    update_data = player_update.dict(exclude_unset=True)
+    for field, value in update_data.items():
+        setattr(db_player, field, value)
+    
+    # Update timestamp
+    db_player.updated_at = datetime.utcnow()
+    
+    db.commit()
+    db.refresh(db_player)
+    return db_player
+
+@app.delete("/players/{player_id}", status_code=status.HTTP_204_NO_CONTENT)
+async def delete_player(
+    player_id: int,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(require_admin_or_coach)
+):
+    """Delete a player profile"""
+    db_player = db.query(Player).filter(Player.id == player_id).first()
+    if not db_player:
+        raise HTTPException(status_code=404, detail="Player not found")
+    
+    db.delete(db_player)
+    db.commit()
+    return None
+
+# --- Additional Player Routes ---
+
+@app.get("/players/sport/{sport}", response_model=List[PlayerResponse])
+async def get_players_by_sport(
+    sport: str,
+    skip: int = 0,
+    limit: int = 100,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
+    """Get all players in a specific sport"""
+    players = db.query(Player).filter(Player.sport == sport).offset(skip).limit(limit).all()
+    return players

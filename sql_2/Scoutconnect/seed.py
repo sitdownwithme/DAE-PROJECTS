@@ -6,7 +6,7 @@ Run this script to add sample users, players, evaluations, and watchlists
 import os
 from datetime import date
 from sqlalchemy.orm import sessionmaker
-from database import engine, SessionLocal
+from src.scoutconnect.db import engine, SessionLocal
 from models import User, Player, Evaluation, Watchlist
 import bcrypt
 
@@ -103,6 +103,15 @@ def create_sample_data():
                 "position": "Forward",
                 "height_cm": 170,
                 "weight_kg": 62
+            },
+            {
+                "first_name": "Jordan",
+                "last_name": "Fields",
+                "date_of_birth": date(1995, 1, 31),
+                "sport": "football",
+                "position": "LB",
+                "height_cm": 162,
+                "weight_kg": 180
             }
         ]
 

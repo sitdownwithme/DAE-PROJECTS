@@ -5,7 +5,7 @@ SQLAlchemy models for ScoutConnect database tables
 from sqlalchemy import Column, Integer, String, Date, Text, TIMESTAMP, DECIMAL, ForeignKey, Boolean, JSON
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
-from database import Base
+from src.scoutconnect.db import Base
 
 class User(Base):
     __tablename__ = "users"
