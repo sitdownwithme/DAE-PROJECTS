@@ -1,0 +1,52 @@
+SCOUTCONNECT DATABASE TABLE STRUCTURES
+==================================================
+Generated using SQLite PRAGMA table_info()
+Found 4 tables: users, players, evaluations, watchlists
+
+
+=== TABLE: USERS ===
+Column               Type            Not Null   Default         Primary Key 
+---------------------------------------------------------------------------
+id                   INTEGER         1          None            1           
+username             VARCHAR(50)     1          None            0           
+email                VARCHAR(100)    1          None            0           
+password_hash        VARCHAR(255)    1          None            0           
+role                 VARCHAR(20)     1          None            0           
+created_at           TIMESTAMP       0          CURRENT_TIMESTAMP 0           
+updated_at           TIMESTAMP       0          CURRENT_TIMESTAMP 0           
+
+=== TABLE: PLAYERS ===
+Column               Type            Not Null   Default         Primary Key 
+---------------------------------------------------------------------------
+id                   INTEGER         1          None            1           
+first_name           VARCHAR(50)     1          None            0           
+last_name            VARCHAR(50)     1          None            0           
+date_of_birth        DATE            0          None            0           
+sport                VARCHAR(50)     1          None            0           
+position             VARCHAR(50)     0          None            0           
+height_cm            INTEGER         0          None            0           
+weight_kg            INTEGER         0          None            0           
+created_at           TIMESTAMP       0          CURRENT_TIMESTAMP 0           
+updated_at           TIMESTAMP       0          CURRENT_TIMESTAMP 0           
+
+=== TABLE: EVALUATIONS ===
+Column               Type            Not Null   Default         Primary Key 
+---------------------------------------------------------------------------
+id                   INTEGER         1          None            1           
+player_id            INTEGER         1          None            0           
+evaluator_id         INTEGER         0          None            0           
+sport                VARCHAR(50)     1          None            0           
+criteria             JSON            0          None            0           
+score                DECIMAL(5, 2)   0          None            0           
+notes                TEXT            0          None            0           
+created_at           TIMESTAMP       0          CURRENT_TIMESTAMP 0           
+updated_at           TIMESTAMP       0          CURRENT_TIMESTAMP 0           
+
+=== TABLE: WATCHLISTS ===
+Column               Type            Not Null   Default         Primary Key 
+---------------------------------------------------------------------------
+id                   INTEGER         1          None            1           
+user_id              INTEGER         1          None            0           
+player_id            INTEGER         1          None            0           
+notes                TEXT            0          None            0           
+created_at           TIMESTAMP       0          CURRENT_TIMESTAMP 0           

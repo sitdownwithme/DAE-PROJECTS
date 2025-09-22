@@ -1,4 +1,4 @@
-1
+
 import random
 
 def rock_paper_scissors_game():

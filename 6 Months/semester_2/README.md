@@ -39,5 +39,4 @@ This semester represents a natural progression from the foundational skills deve
 - Utilizing Unix/Linux skills for server management
 - Implementing version control in a backend development context
 
-linkin: https://www.linkedin.com/in/jordan-fields-a052b334a/
-github : https://sitdownwithme.github.io/DAE-PROJECTS/ 
+
