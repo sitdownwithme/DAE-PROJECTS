@@ -38,3 +38,5 @@ This semester represents a natural progression from the foundational skills deve
 - Applying cybersecurity principles to backend system security
 - Utilizing Unix/Linux skills for server management
 - Implementing version control in a backend development context
+
+
