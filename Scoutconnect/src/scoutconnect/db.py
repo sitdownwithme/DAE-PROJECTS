@@ -1,12 +1,16 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 import os
+from dotenv import load_dotenv
 
-# Load DB path from environment (.env file)
-DB_PATH = os.getenv("DB_PATH", "scoutconnect.db")
+# Load environment variables
+load_dotenv()
 
-# Create SQLite engine
-engine = create_engine(f"sqlite:///{DB_PATH}", echo=True)
+# Database URL from environment
+DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./scoutconnect.db")
+
+# Create engine
+engine = create_engine(DATABASE_URL, echo=True)
 
 # Session maker for database connections
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)

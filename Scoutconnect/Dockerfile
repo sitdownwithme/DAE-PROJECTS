@@ -17,9 +17,13 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy source code
 COPY src/ ./src/
+COPY models.py ./
+
+# Set Python path
+ENV PYTHONPATH=/app
 
 # Expose port
 EXPOSE 8000
 
 # Run the application
-CMD ["uvicorn", "scoutconnect.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+CMD ["uvicorn", "src.scoutconnect.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]

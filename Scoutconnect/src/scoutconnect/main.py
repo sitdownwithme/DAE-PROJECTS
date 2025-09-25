@@ -13,8 +13,8 @@ from sqlalchemy.orm import Session
 from passlib.context import CryptContext
 from jose import JWTError, jwt
 
-from .db import SessionLocal
-from models import User, Player
+from .db import SessionLocal, engine
+from models import User, Player, Base
 
 # Security
 SECRET_KEY = os.getenv("JWT_SECRET_KEY", "your-jwt-secret-key-here")
@@ -77,6 +77,10 @@ app = FastAPI(
     description="Smart Scouting Platform for Talent Discovery & Collaboration",
     version="0.1.0"
 )
+
+@app.on_event("startup")
+def on_startup():
+    Base.metadata.create_all(bind=engine)
 
 # Dependency for DB session
 def get_db():
