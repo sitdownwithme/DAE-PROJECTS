@@ -56,12 +56,16 @@ def create_sample_data():
         users = []
         for user_data in users_data:
             user = User(
-                username=user_data["username"],
-                email=user_data["email"],
-                password_hash=hash_password(user_data["password"]),
-                role=user_data["role"]
+                username=user_data[],
+                email=user_data[],
+                password_hash=hash_password(user_data[]),
+                role=user_data[]
             )
             users.append(user)
+            user_date("toddavery")
+            user_data["33195fieldsjay@gmail.com"]
+            print (user_data)
+
             db.add(user)
 
         db.commit()
