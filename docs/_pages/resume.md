@@ -94,3 +94,42 @@ Studying cybersecurity with a focus on security operations, incident response, a
 - Configured Sysmon for advanced Windows endpoint monitoring and forensic data collection
 
 **Incident Response Development:**
+- Created comprehensive IR playbook following NIST 800-61 framework (Preparation, Detection & Analysis, Containment, Eradication, Recovery, Post-Incident)
+- Executed controlled ransomware simulation using custom binary and Metasploit framework
+- Performed tabletop and live attack exercises to validate detection and response procedures
+
+**Detection & Analysis:**
+- Achieved Mean Time to Detect (MTTD) < 15 minutes through optimized SIEM alerting
+- Conducted forensic analysis of attack artifacts and created detailed incident timelines
+- Documented evidence collection procedures maintaining chain-of-custody standards
+
+**Key Results:**
+- Mean Time to Recover (MTTR) < 24 hours with 100% data recovery validation
+- Aligned response procedures with ISO/IEC 27035 standards
+- Delivered end-to-end playbook with network diagrams, recovery validation reports, and training documentation
+
+**Technologies:** ELK Stack, Wazuh, Sysmon, pfSense, Metasploit, DVWA, Kali Linux, Windows Server, Linux (Apache, Postfix)
+
+---
+
+## Experience
+
+### Cybersecurity Student Analyst
+*DAE Institute* | *June 2025 – Present*
+- Developing security operations and incident response solutions through hands-on lab projects
+- Analyzing security logs and creating detection rules for threat identification
+- Building SIEM dashboards and automating security monitoring workflows
+- Collaborating on cybersecurity projects applying NIST frameworks and industry best practices
+
+---
+
+## Certifications
+
+**Python Programming Fundamentals**  
+*Issued June 2025* | DAE Institute
+
+---
+
+## Professional Summary
+
+Aspiring SOC Analyst with hands-on experience in security operations, incident response, and SIEM deployment. Demonstrated expertise in building detection rules, conducting security investigations, and creating court-admissible documentation. Skilled in log analysis, threat detection automation, and digital evidence management. Currently developing specialized skills in law enforcement cybersecurity with focus on critical infrastructure protection and multi-agency coordination protocols.
