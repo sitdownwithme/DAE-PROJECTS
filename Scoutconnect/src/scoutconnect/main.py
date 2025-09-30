@@ -149,7 +149,7 @@ def require_admin_or_coach(current_user: User = Depends(get_current_user)):
 # Routes
 @app.get("/")
 async def root():
-    return {"message": "Welcome to ScoutConnect API"}
+    return {"message": "Welcome to ScoutConnect "}
 
 @app.get("/health")
 async def health_check():
