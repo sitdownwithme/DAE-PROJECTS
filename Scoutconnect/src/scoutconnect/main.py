@@ -73,8 +73,8 @@ class PlayerResponse(PlayerBase):
         from_attributes = True
 
 app = FastAPI(
-    title="ScoutConnect API",
-    description="Smart Scouting Platform for Talent Discovery & Collaboration",
+    title="ScoutConnect ",
+    description="Where Underrated Meets Opportunity ",
     version="0.1.0"
 )
 
