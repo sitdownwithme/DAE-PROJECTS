@@ -3,7 +3,6 @@ title: "Projects"
 permalink: /projects/
 ---
 
-
 <div class="project-item" id="Incident Response PlayBook">
   <h2>Incident Response PlayBook</h2>
   
@@ -15,7 +14,7 @@ permalink: /projects/
     <div style="flex: 1; min-width: 300px;">
       <h3>Overview</h3>
       <p>
-        The Incident Response Playbook is a comprehensive security solution designed to simulate and respond to ransomware attacks targeting high-value data. This project involved creating a fully isolated network environment to model a professional football team's infrastructure and developing detailed response procedures to protect confidential play data valued at $100M.
+        The Incident Response Playbook is a cybersecurity project designed to simulate ransomware attacks and practice full-cycle response. Built in an isolated lab with <strong>pfSense, ELK Stack, Wazuh, Sysmon, and Metasploit</strong>, the project applied the <strong>NIST 800-61 framework</strong> for detection, containment, eradication, and recovery. It included forensic evidence collection and detailed documentation to strengthen both attacker and defender perspectives.
       </p>
       
       <h3>Technologies Used</h3>
@@ -33,50 +32,11 @@ permalink: /projects/
       
       <h3>Key Learnings</h3>
       <p>
-        This project deepened my understanding of cybersecurity principles, network architecture, and incident response procedures. I learned how to implement NIST 800-61 phases for effective incident management, developed skills in SIEM integration, and gained practical experience in vulnerability scanning and threat detection. The project challenged me to think like both an attacker and defender, significantly enhancing my security mindset.
+        Learned how to integrate SIEM tools, analyze alerts, and document incidents in line with cybersecurity frameworks. Gained practical skills in log analysis, forensic data collection, and developing playbooks that can be applied in both corporate and law enforcement SOC workflows.
       </p>
       
       <div>
         <a href="https://github.com/sitdownwithme/incident-response-playbook" target="_blank" class="btn btn--primary">View Code</a>
-        <a href="#" target="_blank" class="btn btn--secondary">Documentation</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<hr>
-
-<div class="project-item" id="ToddAvery Shoe Customizer">
-  <h2>ToddAvery Shoe Customizer</h2>
-  
-  <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 2rem;">
-    <div style="flex: 0 0 300px;">
-      <img src="/assets/img/ToddAvery_Shoe.png" alt="ToddAvery Shoe Customizer Screenshot" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    </div>
-    
-    <div style="flex: 1; min-width: 300px;">
-      <h3>Overview</h3>
-      <p>
-        The ToddAvery Shoe Customizer is an interactive application that allows users to personalize lacrosse shoes based on various parameters including season, color, traction, support level, and poetic-themed designs. The system also manages shipping and billing information, providing a complete e-commerce customization experience from start to order summary.
-      </p>
-      
-      <h3>Technologies Used</h3>
-      <ul>
-        <li>Python</li>
-        <li>Tkinter (GUI)</li>
-        <li>ttk widgets</li>
-        <li>Object-Oriented Programming</li>
-        <li>Input validation</li>
-        <li>Pricing/tax calculation logic</li>
-      </ul>
-      
-      <h3>Key Learnings</h3>
-      <p>
-        This project enhanced my skills in building user-friendly interfaces and implementing complex business logic. I learned how to create dynamic features that respond to user selections, implement robust form validation, and develop a sophisticated pricing engine. The project challenged me to balance technical functionality with user experience, resulting in a polished application that simulates a real-world e-commerce customization system.
-      </p>
-      
-      <div>
-        <a href="https://github.com/sitdownwithme/toddavery-shoe-customizer" target="_blank" class="btn btn--primary">View Code</a>
         <a href="#" target="_blank" class="btn btn--secondary">Documentation</a>
       </div>
     </div>
@@ -90,13 +50,13 @@ permalink: /projects/
   
   <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 2rem;">
     <div style="flex: 0 0 300px;">
-      <img src="/assets/img/project3-placeholder.jpg.svg" alt="Project 3 Screenshot" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <img src="/assets/img/project3-placeholder.jpg.svg" alt="Sports Connect Screenshot" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </div>
     
     <div style="flex: 1; min-width: 300px;">
       <h3>Overview</h3>
       <p>
-        Scout Connect is a platform designed to connect athletes, coaches, and sports enthusiasts. The application facilitates team formation, event scheduling, and skill development tracking. This project aims to create a comprehensive ecosystem for sports communities to interact, organize activities, and improve their athletic performance.
+        Sports Connect is a web application created to connect athletes, coaches, and teams. While primarily a development project, it emphasized <strong>secure user authentication and database access controls</strong> — introducing me to access management, data security, and the importance of protecting sensitive user information, which directly translates into SOC analyst responsibilities.
       </p>
       
       <h3>Technologies Used</h3>
@@ -110,11 +70,89 @@ permalink: /projects/
       
       <h3>Key Learnings</h3>
       <p>
-        Through this project, I've gained valuable experience in front-end development and user interface design. I've learned how to create responsive layouts that work across different devices and how to implement basic user authentication. The project has challenged me to think about user experience from multiple perspectives and has improved my ability to translate user requirements into functional features.
+        Gained foundational knowledge in securing web applications, including login workflows and database protection. Learned how access control ties into monitoring and how security-by-design complements SOC detection and response practices.
       </p>
       
       <div>
         <a href="https://github.com/sitdownwithme/sports-connect" target="_blank" class="btn btn--primary">View Code</a>
+        <a href="#" target="_blank" class="btn btn--secondary">Documentation</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<div class="project-item" id="Mini SOC Project">
+  <h2>Mini SOC Project</h2>
+  
+  <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 2rem;">
+    <div style="flex: 0 0 300px;">
+      <img src="/assets/img/mini_soc.png" alt="Mini SOC Project Screenshot" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    </div>
+    
+    <div style="flex: 1; min-width: 300px;">
+      <h3>Overview</h3>
+      <p>
+        The Mini SOC Project is a training lab built to simulate real Security Operations Center workflows. It covers <strong>log collection, SIEM dashboards, detection engineering, and case reporting</strong>. Attack simulations such as brute force and phishing validate detection rules, while case management tools document incidents as if handling real investigations.
+      </p>
+      
+      <h3>Technologies Used</h3>
+      <ul>
+        <li>VirtualBox (Ubuntu, Windows, Parrot)</li>
+        <li>ELK Stack or Splunk</li>
+        <li>Wazuh</li>
+        <li>Suricata</li>
+        <li>Filebeat / Winlogbeat</li>
+        <li>Python, Bash scripting</li>
+      </ul>
+      
+      <h3>Key Learnings</h3>
+      <p>
+        Strengthened foundational SOC skills by building dashboards, writing detection rules, and creating incident response playbooks. Learned how to document investigations with evidence screenshots and workflows, laying the groundwork for advanced law enforcement SOC analysis.
+      </p>
+      
+      <div>
+        <a href="https://github.com/sitdownwithme/mini-soc-project" target="_blank" class="btn btn--primary">View Code</a>
+        <a href="#" target="_blank" class="btn btn--secondary">Documentation</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<div class="project-item" id="Law Enforcement SOC Project">
+  <h2>Law Enforcement SOC Project</h2>
+  
+  <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 2rem;">
+    <div style="flex: 0 0 300px;">
+      <img src="/assets/img/law_enforcement_soc.png" alt="Law Enforcement SOC Project Screenshot" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    </div>
+    
+    <div style="flex: 1; min-width: 300px;">
+      <h3>Overview</h3>
+      <p>
+        This capstone project expands the Mini SOC into a <strong>law enforcement-focused SOC lab</strong> that simulates protecting municipal infrastructure like 911 CAD systems, evidence databases, and surveillance networks. It integrates <strong>custom SIEM detection rules, law enforcement playbooks, and court-admissible chain-of-custody documentation</strong>.
+      </p>
+      
+      <h3>Technologies Used</h3>
+      <ul>
+        <li>ELK Stack or Splunk</li>
+        <li>Wazuh (File Integrity Monitoring)</li>
+        <li>Suricata (Network IDS)</li>
+        <li>Syslog-ng / Rsyslog</li>
+        <li>Python automation scripts</li>
+        <li>MD5/SHA256 hash verification</li>
+      </ul>
+      
+      <h3>Key Learnings</h3>
+      <p>
+        Gained experience in high-stakes SOC workflows where cybersecurity meets criminal justice. Learned how to produce legally defensible documentation, build specialized detection rules for law enforcement systems, and coordinate incident response in a multi-agency environment.
+      </p>
+      
+      <div>
+        <a href="https://github.com/sitdownwithme/law-enforcement-soc" target="_blank" class="btn btn--primary">View Code</a>
         <a href="#" target="_blank" class="btn btn--secondary">Documentation</a>
       </div>
     </div>
