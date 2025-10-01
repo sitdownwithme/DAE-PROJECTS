@@ -7,18 +7,17 @@ permalink: /about/
 
 ## Who I Am
 
-Hello! I'm Jordan Fields, a passionate developer and problem-solver currently studying at DAE. 
+Hello! I'm Jordan Fields — a lifelong learner and aspiring SOC Analyst currently studying at DAE. My journey is guided by faith, purpose, and a strong commitment to growth. I’m motivated by the importance of building a lasting legacy and staying grounded in what truly matters, while chasing my dreams and allowing God to direct my steps.  
 
-Despite experiencing trauma, I never imagined I would find myself in a web development class truly enjoying it. Life is about recognizing opportunities and embracing the bridges that come our way - crossing them with confidence. Welcome to my perspective; feel free to explore and enjoy the journey.
-
-When I'm not coding, you can find me building endless memories with my family. You might catch me at the nearest beach, track, or SkyZone. I believe self-care is invaluable, while living expenses are just part of the journey.
+When I'm not coding or working on projects, I’m enjoying life’s moments — whether staying active, outdoors, or simply embracing time that reminds me why I push forward. I believe growth isn’t just about advancing in technology, but about becoming wiser and stronger along the way.  
 
 ## My Values
 
-- **Continuous Learning:** I believe in harmony and coexistence, fostering growth through understanding.
-- **Collaboration:** I thrive in team environments where diverse perspectives lead to innovative solutions.
-- **Quality:** I'm committed to excellence in every mission. We all have goals - it's business, not personal.
-- **Problem-Solving:** Strategic thinking is underrated, yet it has been transformative in my life.
+- **Faith & Purpose:** I trust God’s plan and lean on resilience to keep moving forward.  
+- **Continuous Learning:** Always exploring, always improving, never settling.  
+- **Collaboration:** I want to work with people who care more about impact than status, who are excited to build together.  
+- **Balance:** True success includes peace of mind and meaningful connections.  
+- **Excellence:** Whatever I commit to, I give it my all — with focus, discipline, and integrity.  
 
 ## Career Aspirations
 
@@ -28,11 +27,11 @@ I'm seeking a collaborative and innovative work environment that values continuo
 
 ### Preferred Roles
 
-I'm particularly interested in roles in **Web Development** and **DevOps**, where I can leverage my skills in understanding and enhancing human experiences through technology.
+I'm particularly interested in roles in **Cybersecurity (SOC Analysis, Incident Response, Digital Forensics)** where I can apply my skills in log analysis, detection, and problem-solving, while continuing to grow.  
 
 ### Professional Philosophy
 
-I prioritize sustainable development practices over toxic hustle culture. My goal is to build innovative solutions without sacrificing personal well-being or work-life balance.
+I believe in sustainable progress over burnout culture. My goal is to build meaningful and secure solutions while maintaining balance, growth, and a positive mindset.
 
 ### Team Dynamics
 
