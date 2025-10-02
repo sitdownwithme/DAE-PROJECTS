@@ -97,5 +97,5 @@ permalink: /projects/
         The Law Enforcement SOC Project combines my <strong>Mini SOC lab</strong> with an <strong>expanded law enforcement focus</strong>. 
         It begins with building a training SOC (log collection, SIEM dashboards, detection engineering, and case reporting) 
         and extends into simulating protection of municipal infrastructure like 911 CAD systems, evidence databases, and surveillance networks. 
-        This project integrates <strong>custom SIEM detection rules, forensic playbooks, and court-admissible chain-of-custody documentatio
+        This project integrates <strong>custom SIEM detection rules, forensic playbooks, and court-admissible chain-of-custody documentation
 
