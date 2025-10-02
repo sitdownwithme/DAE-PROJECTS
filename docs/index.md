@@ -18,7 +18,7 @@ permalink: /
   <h2>What You’ll Find Here</h2>
   <p>
     This site highlights my projects and design work. Each section demonstrates how I’ve built hands-on labs that connect classroom learning 
-    with real SOC analyst workflows. You’ll see projects that cover <strong>incident response, mini SOC environments, law enforcement system protection, 
+    with real SOC analyst workflows. You’ll see projects that cover <strong>incident response, SOC environments, law enforcement system protection, 
     and secure web development</strong>. 
   </p>
 </div>
@@ -31,9 +31,9 @@ permalink: /
   <ul>
     <li><strong>Incident Response Playbook</strong> — A lab simulating ransomware response using NIST 800-61, pfSense, ELK, Wazuh, and Metasploit.</li>
     <li><strong>Sports Connect</strong> — A web app connecting athletes and coaches, focusing on secure user authentication and database controls.</li>
-    <li><strong>Mini SOC Project</strong> — A training SOC simulating log collection, SIEM dashboards, detection engineering, and case reporting.</li>
-    <li><strong>Law Enforcement SOC Project</strong> — An expanded SOC environment simulating municipal infrastructure protection, forensic playbooks, 
-    and chain-of-custody documentation for law enforcement use cases.</li>
+    <li><strong>Law Enforcement SOC Project</strong> — A combined project that began as a Mini SOC training lab (log collection, SIEM dashboards, detection engineering, and case reporting) 
+    and expanded into a <strong>law enforcement-focused SOC environment</strong>. It simulates municipal infrastructure protection, integrates forensic playbooks, and 
+    applies court-admissible chain-of-custody documentation to mirror real-world investigative needs.</li>
   </ul>
 </div>
 
@@ -65,6 +65,3 @@ permalink: /
     <img src="/assets/img/dae.png" alt="DAE Logo" style="max-width: 150px; height: auto;">
   </div>
 </div>
-
-
-
