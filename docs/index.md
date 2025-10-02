@@ -12,7 +12,7 @@ Hi, I’m **Jordan Fields** 👋🏾 — a lifelong learner and aspiring **SOC A
 
 On this site, you’ll find:  
 - **About Me** → My background, values, and career aspirations.  
-- **Projects** → Hands-on cybersecurity labs and simulations I’ve built, from my **Incident Response Playbook** to my **Mini SOC** and **Law Enforcement SOC Capstone**.  
+- **Projects** → Hands-on cybersecurity labs and simulations I’ve built, including my **Incident Response Playbook**, **Sports Connect**, and my **Law Enforcement SOC (Mini SOC Capstone)**.  
 - **Updates** → Reflections, progress, and lessons I’m learning along the way.  
 
 I want this portfolio to feel welcoming — a place where you can see my work, my growth, and my commitment to becoming an excellent SOC analyst.  
@@ -36,17 +36,10 @@ I want this portfolio to feel welcoming — a place where you can see my work, m
 </div>
 
 <div class="project-card">
-  <img src="assets/img/mini_soc.png" alt="Mini SOC Project" />
-  <h3>Mini SOC Project</h3>
-  <p>A scaled-down Security Operations Center lab for practicing SIEM dashboards, detection rules, and documenting investigations.</p>
-  <a href="/projects/#Mini SOC Project" class="btn btn--primary">View Details</a>
-</div>
-
-<div class="project-card">
-  <img src="assets/img/law_enforcement_soc.png" alt="Law Enforcement SOC Project" />
-  <h3>Law Enforcement SOC Project (Capstone)</h3>
-  <p>A law enforcement-focused SOC simulation protecting municipal systems like 911 CAD and evidence databases with custom detection rules and chain-of-custody reports.</p>
-  <a href="/projects/#Law Enforcement SOC Project" class="btn btn--primary">View Details</a>
+  <img src="assets/img/law_enforcement_soc.png" alt="Law Enforcement SOC (Mini SOC Capstone)" />
+  <h3>Law Enforcement SOC (Mini SOC Capstone)</h3>
+  <p>A combined Security Operations Center project inspired by law enforcement workflows. Built to simulate SIEM dashboards, custom detection rules, and incident response playbooks, while documenting investigations with chain-of-custody style case reports.</p>
+  <a href="/projects/#Law Enforcement SOC Capstone" class="btn btn--primary">View Details</a>
 </div>
 
 ---
