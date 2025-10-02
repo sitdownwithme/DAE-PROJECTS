@@ -1,49 +1,70 @@
-Jordan Fields  
-Expected Graduation: December 2025  
-
-<div class="contact-info">
-  <p><i class="fas fa-envelope"></i> <a href="mailto:fieldsjay33195@gmail.com">fieldsjay33195@gmail.com</a></p>
-  <p><i class="fab fa-github"></i> <a href="https://github.com/sitdownwithme" target="_blank">GitHub</a></p>
-</div>
-
-# Welcome to My Portfolio  
-
-Hi, I’m **Jordan Fields** 👋🏾 — a lifelong learner and aspiring **SOC Analyst** currently studying at DAE. Guided by faith and purpose, I’m building hands-on skills in **cybersecurity, incident response, and security operations**.  
-
-On this site, you’ll find:  
-- **About Me** → My background, values, and career aspirations.  
-- **Projects** → Hands-on cybersecurity labs and simulations I’ve built, including my **Incident Response Playbook**, **Sports Connect**, and my **Law Enforcement SOC (Mini SOC Capstone)**.  
-- **Updates** → Reflections, progress, and lessons I’m learning along the way.  
-
-I want this portfolio to feel welcoming — a place where you can see my work, my growth, and my commitment to becoming an excellent SOC analyst.  
-
+---
+title: "Home"
+permalink: /
 ---
 
-## Featured Projects  
-
-<div class="project-card">
-  <img src="assets/img/incident_response_playbook.png" alt="Incident Response Playbook" />
-  <h3>Incident Response Playbook</h3>
-  <p>A cybersecurity lab simulating ransomware attacks and practicing full-cycle incident response using SIEM, Wazuh, and forensic documentation.</p>
-  <a href="/projects/#Incident Response PlayBook" class="btn btn--primary">View Details</a>
+<div style="text-align: center; margin-bottom: 3rem;">
+  <h1>Welcome to My Portfolio</h1>
+  <p style="font-size: 1.2rem; max-width: 800px; margin: auto;">
+    I’m <strong>Jordan Fields</strong>, a cybersecurity student and aspiring SOC Analyst focused on law enforcement applications of digital security. 
+    My journey began in backend development, but I’ve transitioned into cybersecurity to practice real-world defensive monitoring, 
+    incident response, and digital forensics.  
+  </p>
 </div>
 
-<div class="project-card">
-  <img src="assets/img/project3-placeholder.jpg.svg" alt="Sports Connect" />
-  <h3>Sports Connect</h3>
-  <p>A web application with <strong>user authentication and database security features</strong>, giving me early experience in access control and secure design.</p>
-  <a href="/projects/#Sports Connect" class="btn btn--primary">View Details</a>
+<hr>
+
+<div class="home-section" style="margin-top: 2rem;">
+  <h2>What You’ll Find Here</h2>
+  <p>
+    This site highlights my projects and design work. Each section demonstrates how I’ve built hands-on labs that connect classroom learning 
+    with real SOC analyst workflows. You’ll see projects that cover <strong>incident response, mini SOC environments, law enforcement system protection, 
+    and secure web development</strong>. 
+  </p>
 </div>
 
-<div class="project-card">
-  <img src="assets/img/law_enforcement_soc.png" alt="Law Enforcement SOC (Mini SOC Capstone)" />
-  <h3>Law Enforcement SOC (Mini SOC Capstone)</h3>
-  <p>A combined Security Operations Center project inspired by law enforcement workflows. Built to simulate SIEM dashboards, custom detection rules, and incident response playbooks, while documenting investigations with chain-of-custody style case reports.</p>
-  <a href="/projects/#Law Enforcement SOC Capstone" class="btn btn--primary">View Details</a>
+<hr>
+
+<div class="home-section" style="margin-top: 2rem;">
+  <h2>Featured Projects</h2>
+  
+  <ul>
+    <li><strong>Incident Response Playbook</strong> — A lab simulating ransomware response using NIST 800-61, pfSense, ELK, Wazuh, and Metasploit.</li>
+    <li><strong>Sports Connect</strong> — A web app connecting athletes and coaches, focusing on secure user authentication and database controls.</li>
+    <li><strong>Mini SOC Project</strong> — A training SOC simulating log collection, SIEM dashboards, detection engineering, and case reporting.</li>
+    <li><strong>Law Enforcement SOC Project</strong> — An expanded SOC environment simulating municipal infrastructure protection, forensic playbooks, 
+    and chain-of-custody documentation for law enforcement use cases.</li>
+  </ul>
 </div>
 
----
+<hr>
 
-<div style="text-align: center; margin-top: 3rem;">
-  <img src="assets/img/dae.png" alt="dae logo" style="max-width: 150px; height: auto;">
+<div class="home-section" style="margin-top: 2rem;">
+  <h2>Technologies & Skills</h2>
+  <p>
+    Across my projects, I’ve worked with a wide range of tools and platforms, including:
+  </p>
+  <ul>
+    <li><strong>SIEM & Monitoring:</strong> ELK Stack, Splunk, Wazuh, Suricata</li>
+    <li><strong>Infrastructure:</strong> VirtualBox VMs (Ubuntu, Windows, Parrot OS, pfSense)</li>
+    <li><strong>Security Tools:</strong> Nmap, Hydra, Sysmon, Filebeat, Winlogbeat</li>
+    <li><strong>Programming & Scripting:</strong> Python, Bash</li>
+    <li><strong>Collaboration & Reporting:</strong> Monday.com, GitHub, Markdown/PDF reporting with hash verification</li>
+  </ul>
 </div>
+
+<hr>
+
+<div class="home-section" style="margin-top: 2rem; text-align: center;">
+  <p style="font-size: 1.1rem;">
+    👉 Head over to the <a href="/projects/" style="font-weight: bold;">Projects section</a> to explore each project in detail, 
+    view the code, and read the documentation.
+  </p>
+  
+  <div style="margin-top: 2rem;">
+    <img src="/assets/img/dae.png" alt="DAE Logo" style="max-width: 150px; height: auto;">
+  </div>
+</div>
+
+
+

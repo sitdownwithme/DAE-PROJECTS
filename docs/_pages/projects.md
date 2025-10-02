@@ -10,11 +10,11 @@ permalink: /projects/
     <div style="flex: 0 0 300px;">
       <img src="/assets/img/incident_response_playbook.png" alt="Incident Response Playbook Screenshot" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </div>
-    
+     
     <div style="flex: 1; min-width: 300px;">
       <h3>Overview</h3>
       <p>
-        The Incident Response Playbook is a cybersecurity project designed to simulate ransomware attacks and practice full-cycle response. Built in an isolated lab with <strong>pfSense, ELK Stack, Wazuh, Sysmon, and Metasploit</strong>, the project applied the <strong>NIST 800-61 framework</strong> for detection, containment, eradication, and recovery. It included forensic evidence collection and detailed documentation to strengthen both attacker and defender perspectives.
+        The Incident Response Playbook simulates ransomware attacks and practices full-cycle response. Built in an isolated lab with <strong>pfSense, ELK Stack, Wazuh, Sysmon, and Metasploit</strong>, it follows the <strong>NIST 800-61 framework</strong> for detection, containment, eradication, and recovery. The project included forensic evidence collection and detailed documentation to strengthen both attacker and defender perspectives.
       </p>
       
       <h3>Technologies Used</h3>
@@ -32,7 +32,7 @@ permalink: /projects/
       
       <h3>Key Learnings</h3>
       <p>
-        Learned how to integrate SIEM tools, analyze alerts, and document incidents in line with cybersecurity frameworks. Gained practical skills in log analysis, forensic data collection, and developing playbooks that can be applied in both corporate and law enforcement SOC workflows.
+        Learned how to integrate SIEM tools, analyze alerts, and document incidents in line with cybersecurity frameworks. Gained practical skills in log analysis, forensic data collection, and developing playbooks that apply to both corporate and law enforcement SOC workflows.
       </p>
       
       <div>
@@ -56,7 +56,7 @@ permalink: /projects/
     <div style="flex: 1; min-width: 300px;">
       <h3>Overview</h3>
       <p>
-        Sports Connect is a web application created to connect athletes, coaches, and teams. While primarily a development project, it emphasized <strong>secure user authentication and database access controls</strong> — introducing me to access management, data security, and the importance of protecting sensitive user information, which directly translates into SOC analyst responsibilities.
+        Sports Connect is a web application created to connect athletes, coaches, and teams. While primarily a development project, it emphasized <strong>secure user authentication and database access controls</strong> — introducing me to access management, data security, and protecting sensitive user information, which directly translates into SOC analyst responsibilities.
       </p>
       
       <h3>Technologies Used</h3>
@@ -94,7 +94,7 @@ permalink: /projects/
     <div style="flex: 1; min-width: 300px;">
       <h3>Overview</h3>
       <p>
-        The Mini SOC Project is the <strong>first phase of my Law Enforcement SOC Capstone</strong>. This training lab was built to simulate Security Operations Center workflows, covering <strong>log collection, SIEM dashboards, detection engineering, and case reporting</strong>. Attack simulations such as brute force and phishing validated detection rules, while case management tools documented incidents as if handling real investigations.
+        The Mini SOC Project is a training lab that simulates Security Operations Center workflows. It covers <strong>log collection, SIEM dashboards, detection engineering, and case reporting</strong>. Attack simulations such as brute force and phishing validated detection rules, while case management tools documented incidents as if handling real investigations.
       </p>
       
       <h3>Technologies Used</h3>
@@ -109,7 +109,7 @@ permalink: /projects/
       
       <h3>Key Learnings</h3>
       <p>
-        Strengthened foundational SOC skills by building dashboards, writing detection rules, and creating incident response playbooks. Learned how to document investigations with evidence screenshots and workflows, laying the groundwork for advanced law enforcement SOC analysis.
+        Strengthened foundational SOC skills by building dashboards, writing detection rules, and creating incident response playbooks. Learned how to document investigations with evidence, screenshots, and workflows — laying the groundwork for advanced law enforcement SOC analysis.
       </p>
       
       <div>
@@ -133,7 +133,7 @@ permalink: /projects/
     <div style="flex: 1; min-width: 300px;">
       <h3>Overview</h3>
       <p>
-        The Law Enforcement SOC Project is the <strong>expanded phase of my Mini SOC</strong>. It extends the training SOC into a <strong>law enforcement-focused environment</strong>, simulating protection of municipal infrastructure like 911 CAD systems, evidence databases, and surveillance networks. It integrates <strong>custom SIEM detection rules, forensic playbooks, and court-admissible chain-of-custody documentation</strong> to mirror real-world investigative needs.
+        The Law Enforcement SOC Project expands the Mini SOC into a <strong>law enforcement-focused environment</strong>, simulating protection of municipal infrastructure like 911 CAD systems, evidence databases, and surveillance networks. It integrates <strong>custom SIEM detection rules, forensic playbooks, and court-admissible chain-of-custody documentation</strong> to mirror real-world investigative needs.
       </p>
       
       <h3>Technologies Used</h3>
@@ -162,3 +162,4 @@ permalink: /projects/
 <div style="text-align: center; margin-top: 3rem;">
   <img src="assets/img/dae.png" alt="dae logo" style="max-width: 150px; height: auto;">
 </div>
+
