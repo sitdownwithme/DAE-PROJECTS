@@ -94,7 +94,7 @@ permalink: /projects/
     <div style="flex: 1; min-width: 300px;">
       <h3>Overview</h3>
       <p>
-        The Mini SOC Project is a training lab built to simulate real Security Operations Center workflows. It covers <strong>log collection, SIEM dashboards, detection engineering, and case reporting</strong>. Attack simulations such as brute force and phishing validate detection rules, while case management tools document incidents as if handling real investigations.
+        The Mini SOC Project is the <strong>first phase of my Law Enforcement SOC Capstone</strong>. This training lab was built to simulate Security Operations Center workflows, covering <strong>log collection, SIEM dashboards, detection engineering, and case reporting</strong>. Attack simulations such as brute force and phishing validated detection rules, while case management tools documented incidents as if handling real investigations.
       </p>
       
       <h3>Technologies Used</h3>
@@ -133,7 +133,7 @@ permalink: /projects/
     <div style="flex: 1; min-width: 300px;">
       <h3>Overview</h3>
       <p>
-        This capstone project expands the Mini SOC into a <strong>law enforcement-focused SOC lab</strong> that simulates protecting municipal infrastructure like 911 CAD systems, evidence databases, and surveillance networks. It integrates <strong>custom SIEM detection rules, law enforcement playbooks, and court-admissible chain-of-custody documentation</strong>.
+        The Law Enforcement SOC Project is the <strong>expanded phase of my Mini SOC</strong>. It extends the training SOC into a <strong>law enforcement-focused environment</strong>, simulating protection of municipal infrastructure like 911 CAD systems, evidence databases, and surveillance networks. It integrates <strong>custom SIEM detection rules, forensic playbooks, and court-admissible chain-of-custody documentation</strong> to mirror real-world investigative needs.
       </p>
       
       <h3>Technologies Used</h3>
