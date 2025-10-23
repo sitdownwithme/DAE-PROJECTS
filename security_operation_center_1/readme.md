@@ -128,16 +128,60 @@ It includes documentation of SOC workflows, alert escalation paths, shift handof
 ## 2. SOC Workflow & Alert Handling (Mermaid Diagram)
 
 ```mermaid
-flowchart TD
-  A[Alert Triggered on Endpoint] --> B[Log Sent to Wazuh Manager]
-  B --> C[Manager Correlates Event with Ruleset]
-  C --> D[Dashboard Displays Alert by Severity]
-  D -->|High/Critical| E[Immediate SOC Review]
-  D -->|Medium/Low| F[Queued for Analyst Review]
-  E --> G[Validate Alert (Threat Hunting, Logs)]
-  G --> H{Incident Confirmed?}
-  H -->|Yes| I[Containment & Eradication]
-  H -->|No| J[Mark as False Positive]
-  I --> K[Recovery & Documentation]
-  K --> L[Shift Handoff & Lessons Learned]
+sequenceDiagram
+  participant Outgoing as Outgoing Analyst
+  participant System as Wazuh & Docs
+  participant Incoming as Incoming Analyst
+  Outgoing->>System: Upload screenshots & update tickets
+  Outgoing->>Incoming: Share summary of open incidents
+  Incoming->>System: Verify agents, alerts, and dashboards
+  Incoming->>Outgoing: Confirm handoff & clarify details
 ```
+
+
+---
+
+## ⚙️ **README #2 – `README_SIEM_Implementation.md`**
+
+```markdown
+# ⚙️ Law Enforcement SOC – SIEM Implementation & Architecture
+
+## Overview
+This document details the technical implementation of the Wazuh SIEM within the Law Enforcement SOC environment.  
+It includes SIEM architecture components, data flow, correlation rule logic, monitored log sources, and notification settings configuration.
+
+---
+
+## 1. SIEM Architecture
+The SOC uses a **Docker single-node deployment** with three key containers:
+1. **Wazuh Manager** – Processes and correlates alerts from agents.  
+2. **Wazuh Indexer** – Stores log data and enables search capabilities.  
+3. **Wazuh Dashboard** – Displays real-time events and analytics.
+
+### Architecture Diagram
+```mermaid
+flowchart LR
+  subgraph Endpoints
+    WSL[Ubuntu 22.04 (WSL) – Wazuh Agent]
+    WIN[Windows Host (optional agent)]
+    PARROT[Parrot OS (optional attacker sim)]
+  end
+
+  subgraph Wazuh_on_Docker
+    MGR[Wazuh Manager]
+    IDX[Wazuh Indexer]
+    DASH[Wazuh Dashboard (https://localhost:443)]
+  end
+
+  WSL -->|Auth / Syslog / FIM| MGR
+  WIN -->|Winlog Events| MGR
+  PARROT -->|Simulated Probes| WSL
+
+  MGR --> IDX
+  IDX --> DASH
+  DASH --> YOU[[SOC Analyst]]
+
+
+
+
+
